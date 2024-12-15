@@ -1,0 +1,21 @@
+/* Latar warna hitam-putih dengan nuansa abu-abu */
+body {
+  background: #f5f5f5;
+  color: #333;
+}
+
+/* Perbaikan hover pada efek */
+.card:hover {
+  transform: scale(1.1);
+  transition: 0.3s ease-in-out;
+}
+
+/* Media sosial hover dengan warna monokrom */
+.fab {
+  color: #555;
+  transition: transform 0.3s ease;
+}
+
+.fab:hover {
+  transform: scale(1.2);
+}
